@@ -69,3 +69,10 @@ WHERE cust_name IS NOT NULL;
 
 SELECT MAX(grade) AS maximum_grade
 FROM customers;
+
+SELECT * 
+FROM customers 
+WHERE cust_name IS NOT NULL;
+
+SELECT MAX(grade) AS maximum_grade 
+FROM customers;
